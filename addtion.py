@@ -1,16 +1,20 @@
 import random
 
-
 def run():
     first_number = random.randint(1, 100)
     second_number = random.randint(1, 100)
+    print(first_number)
+    print(' + ')
+    print(second_number)
+
     answer = first_number + second_number
-    while answer == True:
+    user = input('Write the answer:  ')
+    while user == answer:
         return True
         
-    if answer == True:
+    if user == True:
         print('You are right!')
-    else:
+    elif user == False:
         print('Try again')
 
 
