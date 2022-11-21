@@ -1,2 +1,2 @@
 # Development_Project
-Here are some of the projects I keep on my virtual machine, there's some others that I rather save for later :p
+Here are some of the projects I'm working on, I know it's not too much but its the best I can
