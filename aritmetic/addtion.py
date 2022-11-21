@@ -6,16 +6,15 @@ def run():
     print(first_number)
     print(' + ')
     print(second_number)
-
+    
     answer = first_number + second_number
-    user = input('Write the answer:  ')
-    while user == answer:
-        return True
-        
-    if user == True:
-        print('You are right!')
-    elif user == False:
-        print('Try again')
+    
+    user = int(input('Write the answer:  '))
+    # I think I should fix below
+    if user == answer:
+        print('You are right')
+    else:
+        print('You are wrong')
 
 
 if __name__ == '__main__':
