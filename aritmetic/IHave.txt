@@ -1,0 +1,7 @@
+total 12K
+-rw-r--r-- 1 santiago santiago   0 Nov 22 10:38 IHave.txt
+-rw-r--r-- 1 santiago santiago 442 Nov 21 17:19 addtion.py
+-rw-r--r-- 1 santiago santiago   0 Nov 22 10:37 every_calculation.py
+-rw-r--r-- 1 santiago santiago 215 Nov 21 17:16 menu_sintax.py
+-rw-r--r-- 1 santiago santiago 867 Nov 21 18:00 substraction.py
+ls: cannot access 'as*': No such file or directory

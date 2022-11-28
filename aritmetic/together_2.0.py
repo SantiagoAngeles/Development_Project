@@ -1,6 +1,6 @@
 import random
 
-def run(first_number, answer):
+def run():
     first_number = random.randint(1, 100)
     second_number = random.randint(1, 100)
     print(first_number)
@@ -9,7 +9,7 @@ def run(first_number, answer):
     
     # I dunno how use this function
 
-    ## answer = first_number + second_number
+    answer = first_number + second_number
     
     # how I define 'answer'?
 
