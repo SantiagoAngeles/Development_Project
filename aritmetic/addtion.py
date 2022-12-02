@@ -14,7 +14,7 @@ def run():
 
     user = int(input('Write the answer:  '))
     # I think I should fix below
-    if answer == user:
+    if answer == user
         print('You are right')
     else:
         print('You are wrong')

@@ -1,85 +1,86 @@
 import random
 
+# implement functions use better the code
+
 def run():
     option = int(input('Choose an option to start (1, 2, 3, 4): '))
+
     if option == 1:
         first_number = random.randint(1, 100)
         second_number = random.randint(1, 100)
-        #first_number = str(first_number)
-        #second_number = str(second_number)
+        
         print(first_number)
-        print(' + ')
+        print('(+)')
         print(second_number)
-
+        
         answer = first_number + second_number
         answer = int(answer)
-
+        
         user = int(input('Write the answer:  '))
-        # I think I should fix below
+        
         if answer == user:
             print('You are right')
         else:
             print('You are wrong')
 
-    if option == 2:
+    elif option == 2:
         first_number = random.randint(1, 100)
         second_number = random.randint(1, 100)
-        #first_number = str(first_number)
-        #second_number = str(second_number)
+    
         print(first_number)
-        print(' - ')
+        print('(-)')
         print(second_number)
 
         answer = first_number - second_number
         answer = int(answer)
-
+        
         user = int(input('Write the answer:  '))
-        # I think I should fix below
+        
         if answer == user:
             print('You are right')
         else:
             print('You are wrong')
 
-    if option == 3:
+    elif option == 3:
         first_number = random.randint(1, 100)
         second_number = random.randint(1, 100)
-        #first_number = str(first_number)
-        #second_number = str(second_number)
+        
         print(first_number)
-        print(' * ')
+        print('(*)')
         print(second_number)
-
+        
         answer = first_number * second_number
         answer = int(answer)
-
+        
         user = int(input('Write the answer:  '))
-        # I think I should fix below
+         
         if answer == user:
             print('You are right')
         else:
             print('You are wrong')
 
-    if option == 4:
+    elif option == 4:
         first_number = random.randint(1, 100)
-        second_number = random.randint(1, 100)
-        #first_number = str(first_number)
-        #second_number = str(second_number)
+        second_number = random.randint(1, 10)
+                
         print(first_number)
-        print(' / ')
+        print('(/)')
         print(second_number)
+        
+        answer_int = first_number / second_number
+        # answer_dec = first_number % second_number
+        answer_ult = answer_int # + answer_dec
+        answer_ult = float(answer_ult)
+        answer_ult = round(answer_ult, 2)
+        
+        user = float(input('Write the answer:  '))
+        user = round(user, 2)
 
-        answer1 = first_number / second_number
-        answer2 = first_number % second_number
-        answer_u = answer1 + answer2
-        answer_u = int(answer_u)
-
-        user = int(input('Write the answer:  '))
-        # I think I should fix below
-        if answer_u == user:
+        if answer_ult == user:
             print('You are right')
         else:
-            print('You are wrong')
-
+            print('You are wrong') 
+    
     else:
         print('Choose a posible input please')
 
